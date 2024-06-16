@@ -79,7 +79,7 @@ if(pos1val != "" && pos2val != "" && pos3val != ""){
 
     else{
         if(count === 9){
-            msg.innerText = "It's a draw, Niggas";
+            msg.innerText = "It's a draw, Try Again";
             msgcontainer.classList.remove("hide");
             boxdisabler();
         }
